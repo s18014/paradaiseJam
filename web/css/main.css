@@ -34,12 +34,13 @@ a:active {
 }
 
 /* 共通の見出し */
-main h1 {
+/*main h1 {
 	margin-bottom: 1rem;
 	border-bottom: 1px dashed #c84040;
 	font-weight: normal;
 	font-size: 1.6rem;
 }
+*/
 
 .container {
 	margin: 0 auto;
@@ -124,7 +125,6 @@ nav {
 main {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: #efefef;
 }
 
 @media screen and (min-width: 768px) {

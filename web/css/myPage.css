@@ -1,11 +1,32 @@
 @charset 'utf-8';
 
+main h1 {
+    font-size: 3rem;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+h1, li {
+    color: #fff;
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(#6f6, #cfc);
+}
+
+.container main {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-bg {
+    background: linear-gradient(#6f6, #cfc);
+}
+
 main ul {
     list-style-type: none;
 }
 
 main li {
-    background-color: #f90;
     margin-top: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -24,7 +45,7 @@ main img {
 }
 
 main a {
-    
+    text-decoration: none;
     display: block;
     background-color: greenyellow;
     width: 30%;
