@@ -8,6 +8,7 @@
 <meta name="description" content="">
 <title>健康サポート</title>
 <link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/input.css">
 </head>
 <body>
 <!-- ========== header ========== -->
@@ -39,17 +40,17 @@
 	<div class="container">
 		<main>
 			<div class="input-form">
-				<form action="#" method="post">
+				<form action="../myPage/index.html" method="post">
 					<p><label for="weight-field">今日の体重</label><br>
 						<input type="number" name="weight" id="weight" required/>
-            kg
 					</p>
 					<p><label for="running-dist-field">走った距離</label><br>
 						<input type="number" name="dist" id="dist" required/>
-            km
+
 					</p>
-					<input type="submit" value="送信する"/>
+					<input type="submit" id="input-submit" value="記録"/>
 			</div>
+			<img class="chara" src="../images/o013.png" alt="キャラクター">
 		</main>
 	</div><!-- /.container -->
 </section>
